@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>How to quickly implement typed js to your website</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="showcase">
+	<h2>I am <span class="type"></span></h2>
+	</div>
+
+	<script src="typed.js"></script>
+	<script>
+		var typed = new Typed(".type", {
+  strings: [
+      "Sabisa Siganga", 
+      "a front-end developer",
+      ],
+     typeSpeed: 60,
+     backSpeed: 60,
+     loop: true
+});
+	</script>	
+</body>
+</html> 

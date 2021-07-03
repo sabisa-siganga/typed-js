@@ -1,0 +1,31 @@
+body{
+	margin:0;
+	padding:0;
+	background-image: url('./images/fountain.jpg');
+	-webkit-background-size:cover;
+	background-size:cover;
+	background-position: center center/cover no-repeat;
+}
+
+html {
+	height: 100%;
+}
+
+
+.showcase h2{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform:translate(-50%,-50%);
+	width: 100%;
+	text-align: center;
+	margin: 0;
+	padding:0;
+	font-family: Poppins;
+	color:white;
+	font-size: 4.5em;
+}
+
+.showcase h2 span{
+	color:orange;
+}
